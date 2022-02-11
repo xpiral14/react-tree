@@ -108,7 +108,6 @@ function TreeNode({
   };
 
   const onMouseOver = () => {
-    console.log(getAllParentNodeElements());
     getAllParentNodeElements().forEach((el) =>
       el?.classList.add("node-name-hovered")
     );
