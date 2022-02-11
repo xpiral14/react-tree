@@ -1,0 +1,1 @@
+export const SELECTED_PERSONS = "SELECTED_PERSONS";
